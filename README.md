@@ -1,4 +1,3 @@
-shower-lo-fi
-============
+# Lo-fi theme for Shower
 
-Lo-fi theme for Shower presentation engine
+See [Wiki](https://github.com/shower/shower/wiki) for more information how to use Shower.
