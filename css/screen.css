@@ -1,0 +1,52 @@
+body {
+    font: normal 1.6666666667em/1.5 Inconsolata, monospace;
+    background: #fff;
+    color: #000;
+}
+.full {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    margin: -320px 0 0 -512px;
+    width: 1024px;
+    height: 640px;
+}
+.slide {
+    position: relative;
+    width: 1024px;
+    height: 640px;
+}
+.slide>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    padding: 3em 3em 0;
+    width: 784px;
+    height: 535px
+}
+.full .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 150%;
+}
+.full .slide: target {
+    margin: 0;
+}
+.full .slide .next {
+    visibility: hidden
+}
+.full .slide .next.active {
+    visibility: visible
+}
+img {
+    max-width: 100%;
+}
+.strike {
+    text-decoration: line-through;
+}
+.live-region {
+    display: none
+}

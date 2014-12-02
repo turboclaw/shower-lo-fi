@@ -1,0 +1,21 @@
+{
+  "name": "shower-lo-fi",
+  "version": "1.0.0",
+  "homepage": "https://github.com/turboclaw/shower-lo-fi",
+  "authors": [
+    "turboclaw <dan@turboclaw.com>"
+  ],
+  "description": "Lo-fi theme for Shower",
+  "main": "css/screen.css",
+  "keywords": [
+    "\"shower\""
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
